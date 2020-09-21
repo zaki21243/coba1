@@ -14,3 +14,26 @@ B='\x1b[1;34m'
 Y='\x1b[1;33m'
 C='\x1b[1;36m'
 D='\x1b[0m' 
+echo $ku"     Tools zaki          "
+echo $ku" author :Zaki Jauhar Bahri"
+echo $i"nomor : 082291934634"
+echo $pur'fb   : Zaki Jauhar bahri'
+sleep 1
+echo $bi"pilih menu gan"
+echo $pur"1.stabilkan jaringan"
+echo $ku"0.keluar"
+read -p"pilih menu gan>>>>>>" zaki
+
+if [ $zaki = 1 ]
+then
+clear
+echo $cy"stabilkan jaringan"
+sleep 2
+ping -s1000 1.1.1.1
+fi
+
+if [ $zaki = 2 ]
+then
+clear
+exit
+fi
